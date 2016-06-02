@@ -26,14 +26,17 @@ The Github Repository: [multimaster_fkie](https://github.com/fkie/multimaster_fk
 
 #### Installation
 An assumption that you have already created and initialized a catkin workspace directory for ROS is being made. If not, see [here](http://wiki.ros.org/catkin/Tutorials "ROS Catkin Tutorials").
+
 1. Navigate to your ROS workspace directory src folder
     ```bash
     cd ~/workspace/src
     ```
+
 2. Clone the github repository
     ```bash
     git clone https://github.com/fkie/multimaster_fkie
     ```
+
 3. Catkin_make the workspace with the new package
     ```bash
     cd ~/workspace
@@ -67,4 +70,4 @@ Make sure each script is set to be executable, and navigate the terminal to thei
 
 ### Additional:
 1. ros_new_tab.sh
-  * Creates a user specified amount of new terminal tabs carrying over the environmental ROS_MASTER_URI and ROS_IP parameters. 
+  * Creates a user specified amount of new terminal tabs carrying over the environmental ROS_MASTER_URI and ROS_IP parameters.
