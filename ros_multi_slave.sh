@@ -46,10 +46,10 @@ env_param="export ROS_MASTER_URI=http://$master:11311; export ROS_IP=$ip"
 
 if [[ "$multimast" == "y" ]]; then
 
-  xdotool key ctrl+shift+t
-  sleep 1
-  xdotool type --delay 1 --clearmodifiers "$env_param; $sources; rosrun master_discovery_fkie master_discovery _mcast_group:=$mcast_input"
-  xdotool key Return;
+  # xdotool key ctrl+shift+t
+  # sleep 1
+  # xdotool type --delay 1 --clearmodifiers "$env_param; $sources; rosrun master_discovery_fkie master_discovery _mcast_group:=$mcast_input"
+  # xdotool key Return;
 
 
   xdotool key ctrl+shift+t
