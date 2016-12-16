@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Allows an easy addition of new tabs to a terminal window, while also keeping the current ROS
+# parameters (rosuri, rosip, sources, etc).
+#
+# Author: Thomas Colestock
+
 echo "Creating new tab with current ROS_MASTER_URI and ROS_IP values..."
 echo "How many new tabs would you like?"
 read number

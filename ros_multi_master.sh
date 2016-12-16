@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Designed to provide a step by step guide to set up the master multimaster_fkie network.
+#
+# Author: Thomas Colestock
+
 # User can redefine source location of the multimaster_fkie directory:
 sources="source ~/workspace/devel/setup.bash"
 

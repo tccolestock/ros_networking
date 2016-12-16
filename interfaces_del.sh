@@ -5,6 +5,8 @@
 # sudo ip -4 ro del <IP Address> dev <Interface>
 # <IP Address> is the address communicating TO
 # <Interface> is the port on this computer the communication should go through
+#
+# Author: Thomas Colestock
 
 echo "The current current IP Route configuration is:"
 ip route show

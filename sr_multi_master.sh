@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Attempted script to create master for multimaster_fkie on the Shadow Robot (sr) computer.
+# May require some configuration to properly execute as the sr computer's setup changes.
+#
+# Author: Thomas Colestock
+
 # User can redefine source location of the multimaster_fkie directory:
 sources="source ~/workspace/devel/setup.bash"
 
